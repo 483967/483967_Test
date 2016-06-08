@@ -1,15 +1,22 @@
 
 
-class Test
+require 'httparty'
+require 'net/http'
+require 'nokogiri'
 
+class Test
+  def initialize
+   puts 'ben'
+  end
   def url_selected
-    method
+    return method_for_url
   end
 
-  def method
-  response = fetch("https://en.wikipedia.org/wiki/Category:Trees_of_Europe")
+  def method_for_url
+  response = RestClient.get("https://en.wikipedia.org/wiki/Category:Trees_of_Europe")
   noko = Nokogiri::HTML(response.body)
-  require 'debugger'; debugger
+  debugger
+    puts response
   end
 
   def response_jsonpath(response, path)

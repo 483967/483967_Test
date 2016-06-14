@@ -1,15 +1,11 @@
 .holder {
-    border-color: black; border-style: solid;
+    border-color: black; border-style: solid; border-width: thin;
     background-color: olive;
     margin-top: 250px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
     height: 300px;
-}
-
-div {
-    border-color: red;
 }
 
 .main {
@@ -20,18 +16,63 @@ div {
 }
 
 .header {
+    width: 100%;
+    height: 150px;
     border-color: black; border-style: solid;
     background-color: burlywood;
-    width: 100%;
-    height: 75px;
-    margin-bottom: 20px;
 }
 
 .sub-header {
-    border-radius: 10px; border-color: olive;
-    background-color: olive;
-    margin-top: 2px;
+    border-style: inset; border-color: black;
+    background-color: burlywood;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.container {
+    margin: 10%;
+    background-color: grey;
+}
+
+.title {
+    margin: 5px;
+    border-color: black; border-style: solid;
+}
+
+#tree_one_left {
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+#tree_two_right {
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.tree_left {
+    margin: auto;
+    float: left;
+}
+
+.tree_right {
+    margin: auto;
+    float: right;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+.heading {
+    width: auto;
+    margin: 25px;
+}
+
+#title_header {
+    margin: 30px;
+    text-align: center;
+    font-family: "Garamond"; font-size: 30px; background-color: white;
 }

@@ -42,14 +42,14 @@
 
 #tree_one_left {
     margin: 5px;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
 }
 
 #tree_two_right {
     margin: 5px;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
 }
 
 .tree_left {
@@ -67,12 +67,11 @@ body {
 }
 
 .heading {
-    width: auto;
-    margin: 25px;
+    width: 100%;
 }
 
 #title_header {
-    margin: 30px;
+    width: auto;
     text-align: center;
-    font-family: "Garamond"; font-size: 30px; background-color: white;
+    font-family: "MS Reference Sans Serif"; font-size: 30px; background-color: burlywood;
 }

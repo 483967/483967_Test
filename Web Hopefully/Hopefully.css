@@ -37,7 +37,7 @@
 
 .title {
     margin: 5px;
-    border-color: black; border-style: solid;
+
 }
 
 #tree_one_left {
@@ -53,12 +53,12 @@
 }
 
 .tree_left {
-    margin: auto;
+    margin: 5px;
     float: left;
 }
 
 .tree_right {
-    margin: auto;
+    margin: 5px;
     float: right;
 }
 
@@ -71,7 +71,29 @@ body {
 }
 
 #title_header {
-    width: auto;
+    margin: auto;
+    width: 70%;
+    height: 250%;
     text-align: center;
-    font-family: "MS Reference Sans Serif"; font-size: 30px; background-color: burlywood;
+    position: static;
+    color: mediumseagreen;
+    font-family: Broadway; font-size: 50px; background-color: burlywood;
+    border-style: solid; border-color: black;
+}
+
+.heading_container {
+    margin: auto;
+}
+
+.button {
+    border-style: solid; border-color: black;
+    background-color: olive;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Broadway;
+}
+
+.button_container {
+    margin: 10px;
 }
